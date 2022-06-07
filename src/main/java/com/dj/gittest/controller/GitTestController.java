@@ -18,6 +18,7 @@ public class GitTestController {
         System.out.println("hello git~~~");
         System.out.println("hello git~~~~");
         System.out.println("hello git~~~~~");
+        System.out.println("hello dev~~~~~~");
         return "hello git~~";
     }
 }
