@@ -15,6 +15,7 @@ public class GitTestController {
     @GetMapping("/hello")
     public String hello() {
         System.out.println("hello git~~");
+        System.out.println("hello git~~~");
         return "hello git~~";
     }
 }
