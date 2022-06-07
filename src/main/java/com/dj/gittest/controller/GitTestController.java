@@ -20,6 +20,8 @@ public class GitTestController {
         System.out.println("hello git~~~~~");
         System.out.println("hello master~~~~~");
         System.out.println("hello dev~~~~~~");
+        //先在dev分支写,再合并到master,最后通过master提交到远程仓库
+        System.out.println("hello push by master");
         return "hello git~~";
     }
 }
